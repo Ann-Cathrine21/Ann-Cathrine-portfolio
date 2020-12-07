@@ -5,3 +5,9 @@
 *{
     font: 'Open Sans Condensed','Calibri';
 }
+
+.footer {
+    display: flex;
+    text-decoration: none;
+}
+  
