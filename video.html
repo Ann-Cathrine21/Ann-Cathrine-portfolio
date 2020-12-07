@@ -3,17 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Video</title>
 </head>
 <body>
     <header>
-        <!--Portfolio navn-->
-        <h1>Ann-Cathrine Iversen - portfolio </h1>
-    </header>
+       <!--Burgermenu-->
+       <div class="topnav">
+        <a href="#" class="active"></a>
+        <div class="mobile-container"></div>
+    
+        <div id="myLinks">
+        <a href="index.html">Forside</a>
+        
+        <a href="ommig.html">Om mig</a>
+    
+        <a href="hjemmeside.html">Hjemmesider</a>
 
+        <a href="video.html">Video</a>
+
+        <a href="billeder.html">Billeder</a>
+    
+        <!--Burgermenu Sociale medier-->
+        <div class="burgermenu-sociale-medier">
+      <a href="https://www.facebook.com/anncathrine.iversen"><img src="images/Facebook.png" alt="Facebook" width="31"></a>
+     
+      <a href="https://outlook.live.com/owa/"><img src="images/Mail.jpeg" alt="Mail" width="30"></a>
+     
+      <a href="https://www.instagram.com/anncathrineiversen/"><img src="images/Instagrasm.png" alt="Instagram" width="30"></a>
+      </div>
+        </div>
+
+        <a href="javascript:void(0);" class="icon"
+        onclick="myFunction()">
+        <i class="fa fa-bars">
+        </i>
+    </a>
+    </div>
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
+
+    <!--Portfolio navn-->
+    <div class="portfolio-navn">
+      <a href="index.html" class="portfolio-navn">Ann-Cathrine Iversen - portfolio </a>
+      </div>
+</header>
+
+<div class="billedetekst">
+  <p>VIDEO</p>
+</div>
+
+    <!--Video-->
+    <div class="video">
     <video width="375" controls>
         <source src="./FilmomAnilaLaudie.mp4" type="video/mp4">
     </video>
+    </div>
+
+    <footer>
+        <!--Footer-->
+    <div class="footer">        
+      <a href="ommig.html" class="footer">Om mig</a>
+      
+      <a href="hjemmeside.html" class="footer">Hjemmesider</a>
+
+      <a href="video.html" class="footer">Video</a>
+
+      <a href="billeder.html" class="footer">Billeder</a>
+  </div>
+    
+        <!--Sociale medier-->
+        <div class="sociale-medier">
+            <a href="https://www.facebook.com/anncathrine.iversen"><img src="images/Facebook.png" alt="Facebook" width="31"></a>
+           
+            <a href="https://outlook.live.com/owa/"><img src="images/Mail.jpeg" alt="Mail" width="30"></a>
+           
+            <a href="https://www.instagram.com/anncathrineiversen/"><img src="images/Instagrasm.png" alt="Instagram" width="30"></a>
+        </div>
+    
+        <!--Copyright-->
+        <p class="copyright">
+        © Ann-Cathrine 2020
+        </p>
+    </footer>
 </body>
 </html>
