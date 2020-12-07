@@ -3,13 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">    
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Hjemmeside</title>
 </head>
 <body>
     <header>
+        <!--Burgermenu-->
+       <div class="topnav">
+        <a href="#" class="active"></a>
+        <div class="mobile-container"></div>
+    
+        <div id="myLinks">
+        <a href="index.html">Forside</a>
+        
+        <a href="ommig.html">Om mig</a>
+    
+        <a href="projekter.html">Projekter</a>
+    
+        </div>
+
+        <a href="javascript:void(0);" class="icon"
+        onclick="myFunction()">
+        <i class="fa fa-bars">
+        </i>
+    </a>
+    </div>
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+      </script>
         <!--Portfolio navn-->
-        <h1>Ann-Cathrine Iversen - portfolio </h1>
+        <div class="portfolio-navn">
+            <h1>Ann-Cathrine Iversen - portfolio </h1>
+            </div>
     </header>
+
+    <!--Hjemmeside billede-->
+    <div class="hjemmeside">
+    <a href="http://annce.dk/dans/program.html" target="_blank"><img src="./images/dans.1.png" alt="Billeder" width="200"></a>
+    <a href="http://annce.dk/Dansdel2/omsalsa.html" target="_blank"><img src="./images/dans2.png" alt="Billeder" width="200"></a>
+    <a href="http://annce.dk/bagrettet-del1/modeller.html" target="_blank"><img src="./images/bagrettet1.png" alt="Billeder" width="200"></a>
+    <a href="http://annce.dk/Bagrettetdel2/modeller.html" target="_blank"><img src="./images/bagrettet2.png" alt="Billeder" width="200"></a>
+    </div>
+    <footer>
+        <!--Footer-->
+        <div class="footer">
+            <a href="index.html" class="footer">Forside</a>
+            
+            <a href="ommig.html" class="footer">Om mig</a>
+            
+            <a href="projekter.html" class="footer">Projekter</a>
+        </div>
+    
+        <div class="sociale-medier">
+            <a href="https://www.facebook.com/anncathrine.iversen"><img src="images/Facebook.png" alt="Facebook" width="45"></a>
+            
+            <a href="https://outlook.live.com/owa/"><img src="images/Mail.jpeg" alt="Mail" width="41"></a>
+            
+            <a href="https://www.instagram.com/anncathrineiversen/"><img src="images/Instagrasm.png" alt="Instagram" width="42"></a>
+        </div>
+    
+        <!--Copyright-->
+        <p class="copyright">
+        © Ann-Cathrine 2020
+        </p>
+    </footer>
+    </body>
 </body>
 </html>

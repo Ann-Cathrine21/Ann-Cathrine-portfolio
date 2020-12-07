@@ -1,13 +1,74 @@
 /*fonts*/
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap');
 
 *{
-    font: 'Open Sans Condensed','Calibri';
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
+/*burgermenu*/
+.topnav{
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+}
+
+.topnav #myLinks {
+    display: none;
+}
+
+.topnav a {
+    color: #595958;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+.topnav a.icon {
+    background: #ffffff;
+    display:block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.active {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+/*Portfolio navn*/
+.portfolio-navn { 
+    display: left;
+    color: #595958;
+    font-size: 10pt;
+}
+
+.hjemmeside {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/*footer*/
 .footer {
     display: flex;
-    text-decoration: none;
+    color: #595958;
+    font-size: 15pt;
+    justify-content: center;
 }
+
+/*Sociale medier*/
+.sociale-medier {
+   float: right
+}
+
+/*Copyright*/
+.copyright {
+    display: flex;
+    color: #595958; 
+    font-size: 15pt;
+    justify-content: center;
+    width: 100%
+}
+
   
