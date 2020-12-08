@@ -51,6 +51,12 @@
     color: #595958;
     font-size: 18pt;
 }
+
+/*Billdere på forside*/
+.forside {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
 /*Overskrift*/
 .billedetekst {
     display: flex;
