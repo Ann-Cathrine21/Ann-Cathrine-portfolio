@@ -66,7 +66,7 @@
     font-size: 22px;
     font-weight: bold;
 }
-
+/*Hjemmeside*/
 /*Hjemmeside billedere*/
 .hjemmeside1 {
     margin-left: 5rem;
@@ -94,6 +94,15 @@
     margin-right: 5rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+}
+
+/*Streg hjemmeside*/
+.streg-hjemmeside {
+    margin-left: 1.5rem;
+    height: 2px; 
+    justify-content: center;
+    width: 330px; 
+    background-color:#595958
 }
 
 /*Overskrift dans 1*/
@@ -157,7 +166,7 @@
 }
 
 
-/*Billedere af mig*/
+/*Billede hjemmeside*/
 .midder-billede {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -220,7 +229,7 @@
     color: #595958;
 }
 
-/*Video*/
+/*Video Hjemmside*/
 .video {
     display: flex;
 }
@@ -234,9 +243,15 @@
     margin-bottom: 1rem;
 }
 
-/*Billedere show jeg har taget*/
-
 /*footer*/
+.streg {
+    margin-left: 1rem;
+    height: 2px; 
+    justify-content: center;
+    width: 330px; 
+    background-color:#595958
+}
+
 .footer {
     display: flex;
     color: #595958;
@@ -257,8 +272,162 @@
 .copyright {
     display: flex;
     color: #595958; 
-    font-size: 15pt;
+    font-size: 13pt;
     justify-content: center;
     width: 100%
 }
 
+/* Media sreen 1920 x 1080 */
+@media screen and (min-width: 1080px) {
+
+/*Burgermenu*/
+    .topnav {
+       overflow: visible;
+    }
+    .fa.fa-bars {
+        display: none;
+    }
+    .topnav #myLinks {
+        display: flex;
+        float: right;
+        margin-top: 1rem;
+    }
+    .topnav a {
+        font-size: 30pt;
+    }
+    .burgermenu-sociale-medier {
+        display: none;
+    }
+
+/*Portfolio navn*/
+    .portfolio-navn {
+        float: left;
+        font-size: 35pt;
+        margin-top: 1rem;
+        margin-left: 1rem;
+    }
+/*Forside*/
+    .forside1 img{
+        display: inline;
+        width: 32%;
+    }
+
+    .forside2 img {
+        display: inline;
+        width: 32%;
+    }
+
+    .forside3 img {
+        display: inline;
+        width: 32%;
+    }
+
+    .streg-hjemmeside {
+        margin-left: 6rem;
+        width: 1750px;
+    }
+/*Overskrift*/
+    .billedetekst {
+        margin-top: 6rem;
+        font-size: 44pt;
+    }
+/*Hjemmeside*/
+    .hjemmeside1 {
+        margin-left: 53rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    .hjemmeside2 {
+        margin-left: 53rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    .hjemmeside3 {
+        margin-left: 53rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    .hjemmeside4 {
+        margin-left: 53rem;
+        margin-right: 1rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+    }
+    .se-mere-dans1 {
+        margin-right: 50rem;
+        float: right;
+        margin-top: 5rem;
+    }
+    .se-mere-dans2 {
+        margin-right: 50rem;
+        float: right;
+        margin-top: 5rem;
+    }
+    .se-mere-bagrettet1 {
+        margin-right: 50rem;
+        float: right;
+        margin-top: 5rem;
+    }
+    .se-mere-bagrettet2 {
+        margin-right: 50rem;
+        float: right;
+        margin-top: 5rem;
+    }
+/*Video hjemmeside*/
+    .video { 
+        margin-left: 48rem;
+    }
+
+    .se-mere-video {
+        margin-right: 50rem;
+        float: right;
+    }
+/*Billede hjemmside*/
+    .midder-billede {
+        margin-top: 7rem;
+        margin-left: 50rem;
+    }
+    .billeder1 {
+        margin-left: 10rem;
+        margin-right: 1rem;
+    }
+    .billeder2 {
+        margin-left: 10rem;
+        margin-right: 1rem;
+    }
+    .billeder3 {
+        margin-left: 80rem;
+        margin-right: 1rem;
+    }
+    .billeder4 {
+        margin-left: 100rem;
+        margin-right: 1rem;
+    }
+    .kontakt-email {
+        font-size: 25pt;
+    }
+
+    .kontakt-nummer {
+        font-size: 25pt;
+    }
+
+/*Fotter*/
+    .copyright {
+        font-size: 25pt;
+    }
+    .sociale-medier {
+        margin-right: 5rem;
+    }
+    .streg {
+        margin-left: 6rem;
+        width: 1750px;
+    }
+    .footer {
+        font-size: 28pt;
+        margin-left: 4rem;
+    }
+
+}
