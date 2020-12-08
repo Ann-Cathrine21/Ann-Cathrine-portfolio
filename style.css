@@ -88,6 +88,19 @@
     margin-bottom: 1rem;
 }
 
+/*Tekst til dans 1*/
+.tekst-dans1 {
+    color: #595958;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    font-size: 20px;
+}
+
+/*logo til dans 1*/
+.logo-til-dans1 {
+    margin-right: 1rem;
+}
+
 /*se mere tekst*/
 .se-mere-dans1 {
     color: #595958;
@@ -115,6 +128,7 @@
     float: right;
     margin-top: 1rem;
 }
+
 
 /*Billedere af mig*/
 .midder-billede {
@@ -178,6 +192,15 @@
 /*Video*/
 .video {
     display: flex;
+}
+
+/*video se mere teskt*/
+.se-mere-video {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*Billedere show jeg har taget*/
@@ -263,6 +286,14 @@
 @keyframes fade {
     from {opacity: .4;}
     to {opacity: 1;}
+}
+
+.se-mere-thailand {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /*footer*/
