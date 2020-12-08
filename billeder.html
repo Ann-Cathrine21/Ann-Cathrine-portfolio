@@ -26,7 +26,7 @@
 
         <a href="billeder.html">Billeder</a>
     
-        <!--Burgermenu Sociale medier-->
+    <!--Burgermenu Sociale medier-->
       <div class="burgermenu-sociale-medier">
       <a href="https://www.facebook.com/anncathrine.iversen"><img src="images/Facebook.png" alt="Facebook" width="31"></a>
      
@@ -62,111 +62,53 @@
     <div class="billedetekst">
         <p>BILLEDER</p>
     </div>
+</header>
 
 <!--Slideshow Thailand-->
-<section class="slideshow-container">
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 5</div>
-            <img src="./images/Thailnad1.jpeg" style="width: 100%">
-    </div>
+<div class="Slideshow"></div>
+<img class="mySlides" src="images/Thailnad1.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad2.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad3.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad4.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad5.jpeg" width="300">
+<br>
 
-    <div class="mySlides fade">
-        <div class="numbertext">2 / 5</div>
-        <img src="./images/Thailnad2.jpeg" style="width: 100%">
-</div>
-
-<div class="mySlides fade">
-    <div class="numbertext">3 / 5</div>
-    <img src="./images/Thailnad3.jpeg" style="width: 100%">
-</div>
-
-<div class="mySlides fade">
-    <div class="numbertext">4 / 5</div>
-    <img src="./images/Thailnad4.jpeg" style="width: 100%">
-</div>
-
-<div class="mySlides fade">
-    <div class="numbertext">5 / 5</div>
-    <img src="./images/Thailnad5.jpeg" style="width: 100%">
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-    <br>
-
-    <div style="text-align: center;">
-    <span class="dot" onclick="currentSlide(1)"></span>
-    <span class="dot" onclick="currentSlide(2)"></span>
-    <span class="dot" onclick="currentSlide(3)"></span>
-    <span class="dot" onclick="currentSlide(4)"></span>
-    <span class="dot" onclick="currentSlide(5)"></span>
-</div>
-</section>
-
+<button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
+<button class="button-right" onclick="plusDivs(+1)">&#10095;</button>
 <script>
-var slideIndex =1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-    showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-    showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-    var i; 
-    var slides =
-    document.getElementsByClassName("mySlides");
-    var dots = document.getElenentByClassName ("dot");
-    if (n > slides.length) {slideIndex=1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
+        var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
     }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
-}
-
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-}
 </script>
 
-<!--Se mere tekst-->
-<div class="se-mere-thailand">
-    <em href="" class="thailnad">Se mere</em>
-    </div> 
-<br>
-<br>
-<br>
-    <!--Footer-->
-    <hr style="height: 1px; width: 330px; background-color:#595958;">
+<footer>
+    <!--Streg i bunden-->
+  <hr style="height: 1px; width: 330px; background-color:#595958;">
+  
+      <!--Footer-->
+  <div class="footer">        
+    <a href="ommig.html" class="footer">Om mig</a>
     
-    <div class="footer">        
-        <a href="ommig.html" class="footer">Om mig</a>
-        
-        <a href="hjemmeside.html" class="footer">Hjemmesider</a>
+    <a href="hjemmeside.html" class="footer">Hjemmesider</a>
 
-        <a href="video.html" class="footer">Video</a>
+    <a href="video.html" class="footer">Video</a>
 
-        <a href="billeder.html" class="footer">Billeder</a>
-    </div>
+    <a href="billeder.html" class="footer">Billeder</a>
+</div>
 
     <!--Sociale medier-->
     <div class="sociale-medier">
@@ -181,4 +123,6 @@ function showSlides() {
     <p class="copyright">
     © Ann-Cathrine 2020
     </p>
-</header>
+</footer>
+</body>
+</html>
