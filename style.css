@@ -60,25 +60,119 @@
 }
 
 /*Hjemmeside billedere*/
-.hjemmeside {
+.hjemmeside1 {
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hjemmeside2 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hjemmeside3 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hjemmeside4 {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/*se mere tekst*/
+.se-mere-dans1 {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+}
+
+.se-mere-dans2 {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 1rem;
+}
+
+.se-mere-bagrettet1 {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 1rem;
+}
+
+.se-mere-bagrettet2 {
+    color: #595958;
+    margin-right: 1rem;
+    float: right;
+    margin-top: 1rem;
 }
 
 /*Billedere af mig*/
 .midder-billede {
-    
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
-    
 
-.billedere-af-mig {
+.billeder1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
 
+.billeder2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.billeder3 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.billeder4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 /*Kontakt*/
-.kontakt {
+.kontakt-email {
     display: flex;
     justify-content: center;
+    color: #595958;
+}
+
+.kontakt-nummer {
+    display: flex;
+    justify-content: center;
+    color: #595958;
 }
 
 /*Video*/
@@ -178,6 +272,7 @@
     font-size: 15pt;
     justify-content: center;
     padding: 0.5rem;
+    text-decoration: none;
 }
 
 /*Sociale medier*/
