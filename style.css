@@ -54,10 +54,20 @@
 }
 /*Forside*/
 /*Billdere på forside*/
-.forside {
+.forside1 {
     margin-right: 1rem;
     margin-left: 1rem;
 }
+.forside2{
+    margin-right: 1rem;
+    margin-left: 0.3rem;
+}
+
+.forside3{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
 /*Overskrift*/
 .billedetekst {
     display: flex;
@@ -112,6 +122,10 @@
     display: flex;
     justify-content: center;
     font-size: 19px;
+}
+
+.hjemmeside-dans1 {
+    margin-left: 5.5rem;
 }
 
 /*Lang tekst til dans 1*/
@@ -374,16 +388,25 @@
     .forside1 img{
         display: inline;
         width: 32%;
+        position: absolute;
+        margin-top: 10rem;
+        margin-left: 2rem;
     }
 
     .forside2 img {
         display: inline;
         width: 32%;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
+        margin-left: 42rem;
     }
 
     .forside3 img {
         display: inline;
         width: 32%;
+        position: absolute;
+        margin-bottom: 10rem;
+        margin-top: 10rem;
     }
 
     .streg-hjemmeside {
@@ -449,33 +472,66 @@
         margin-right: 50rem;
         float: right;
     }
-/*Billede hjemmside*/
+/*Om mig hjemmside*/
     .midder-billede {
-        margin-top: 7rem;
+        margin-top: 10rem;
         margin-left: 50rem;
     }
     .billeder1 {
-        margin-left: 10rem;
-        margin-right: 1rem;
+        margin-left: 30rem;
+        position: absolute;
     }
     .billeder2 {
         margin-left: 10rem;
-        margin-right: 1rem;
+        position: absolute;
     }
     .billeder3 {
         margin-left: 80rem;
-        margin-right: 1rem;
+        position: absolute;
     }
     .billeder4 {
         margin-left: 100rem;
-        margin-right: 1rem;
+        position: absolute;
     }
+
     .kontakt-email {
         font-size: 25pt;
     }
 
     .kontakt-nummer {
         font-size: 25pt;
+    }
+
+/*Hjemmeside billedere*/
+    .mySlides {
+        margin-left: 50rem;
+    }
+
+    .mySlides2{
+        margin-left: 50rem;
+    }
+
+    .button-left {
+        margin-left: 58rem;
+    }
+
+    .button-left2 {
+        margin-left: 58rem;
+    }
+
+    .streg-billede {
+        margin-left: 4rem;
+        width: 1750px
+    }
+
+    .se-mere-thailnad {
+        margin-right: 50rem;
+        float: right;
+    }
+
+    .se-mere-natur {
+        margin-right: 50rem;
+        float: right;
     }
 
 /*Fotter*/
