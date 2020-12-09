@@ -66,12 +66,11 @@
 
 <!--Slideshow Thailand-->
 <div class="Slideshow"></div>
-<img class="mySlides" src="images/Thailnad1.jpeg" width="350">
-<img class="mySlides" src="images/Thailnad2.jpeg" width="350">
-<img class="mySlides" src="images/Thailnad3.jpeg" width="350">
-<img class="mySlides" src="images/Thailnad4.jpeg" width="350">
-<img class="mySlides" src="images/Thailnad5.jpeg" width="350">
-<br>
+<img class="mySlides" src="images/Thailnad1.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad2.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad3.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad4.jpeg" width="300">
+<img class="mySlides" src="images/Thailnad5.jpeg" width="300">
 
 <button class="button-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="button-right" onclick="plusDivs(+1)">&#10095;</button>
@@ -95,6 +94,54 @@
       x[slideIndex-1].style.display = "block";
     }
 </script>
+
+<!--Se mere tekst Thailand-->
+<div class="se-mere-thailnad">
+  <em><a href="" style="text-decoration: none;" class="billede">Se mere</a></em>
+  </div>
+
+<!--Streg i mellem billederne-->
+<section class="streg-billede"></section>
+
+<!--Slideshow Natur-->
+<div class="Slideshow2"></div>
+<img class="mySlides2" src="images/Natur1.jpeg" width="300">
+<img class="mySlides2" src="images/Natur2.jpeg" width="300">
+<img class="mySlides2" src="images/Natur3.jpeg" width="300">
+<img class="mySlides2" src="images/Natur4.jpeg" width="300">
+<img class="mySlides2" src="images/Natur5.jpeg" width="300">
+<img class="mySlides2" src="images/Natur6.jpeg" width="300">
+<img class="mySlides2" src="images/Natur7.jpeg" width="300">
+<img class="mySlides2" src="images/Natur8.jpeg" width="300">
+
+<button class="button-left2" onclick="plusDivs(-1)">&#10094;</button>
+<button class="button-right2" onclick="plusDivs(+1)">&#10095;</button>
+
+<script>
+        var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides2");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+</script>
+
+<!--Se mere tekst natur-->
+<div class="se-mere-natur">
+  <em><a href="" style="text-decoration: none;" class="billede">Se mere</a></em>
+  </div>
+
 <!--Footer-->
 <footer>
 <!--Streg i bunden-->
@@ -113,11 +160,11 @@
 
 <!--Sociale medier-->
     <div class="sociale-medier">
-        <a href="https://www.facebook.com/anncathrine.iversen"><img src="images/Facebook.png" alt="Facebook" width="31"></a>
+        <a href="https://www.facebook.com/anncathrine.iversen"style="text-decoration: none; "target="_blank"><img src="images/Facebook.png" alt="Facebook" width="31"></a>
        
-        <a href="https://outlook.live.com/owa/"><img src="images/Mail.jpeg" alt="Mail" width="30"></a>
+        <a href="https://outlook.live.com/owa/" style="text-decoration: none; "target="_blank" ><img src="images/Mail.jpeg" alt="Mail" width="30"></a>
        
-        <a href="https://www.instagram.com/anncathrineiversen/"><img src="images/Instagrasm.png" alt="Instagram" width="30"></a>
+        <a href="https://www.instagram.com/anncathrineiversen/" style="text-decoration: none; "target="_blank><img src="images/Instagrasm.png" alt="Instagram" width="30"></a>
     </div>
 
 <!--Copyright-->
