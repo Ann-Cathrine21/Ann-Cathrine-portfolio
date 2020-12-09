@@ -389,8 +389,8 @@
         display: inline;
         width: 32%;
         position: absolute;
-        margin-top: 10rem;
-        margin-left: 2rem;
+        margin-top: 15rem;
+        margin-left: -30rem;
     }
 
     .forside2 img {
@@ -398,7 +398,7 @@
         width: 32%;
         margin-bottom: 10rem;
         margin-top: 10rem;
-        margin-left: 42rem;
+        margin-left: 40rem;
     }
 
     .forside3 img {
@@ -407,6 +407,7 @@
         position: absolute;
         margin-bottom: 10rem;
         margin-top: 10rem;
+        margin-left: -5rem;
     }
 
     .streg-hjemmeside {
