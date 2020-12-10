@@ -447,6 +447,31 @@ xs
         margin-bottom: 1rem;
     }
 
+    .hjemmeside-dans1{
+        margin-left: 90rem;
+        margin-top: 7rem;
+    }
+
+    .logo-til-dans1 {
+        margin-left: 80rem;
+        margin-bottom: 3rem;
+    }
+
+    .tekst-overskrift {
+        margin-top: 7rem;
+        font-size: 35pt;
+    }
+
+    .tekst-dans1 {
+        margin-left: 10rem;
+        font-size: 30pt;
+    }
+
+    .Se-hele-hjemmesiden {
+        margin-left: 10rem;
+        font-size: 25pt;
+    }
+
 /*Se mere tekst på hjemmesiden*/
     .se-mere-dans1 {
         margin-right: 50rem;
@@ -534,7 +559,7 @@ xs
         margin-left: 4rem;
         width: 1750px
     }
-    
+
 /*Se mere på billedehjemmesiden*/
     .se-mere-thailnad {
         margin-right: 50rem;
