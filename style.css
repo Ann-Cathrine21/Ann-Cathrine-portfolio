@@ -68,7 +68,7 @@
     margin-left: 1rem;
 }
 
-/*Overskrift*/
+/*Overskrift på alle sider*/
 .billedetekst {
     display: flex;
     justify-content: center;
@@ -76,6 +76,7 @@
     font-size: 22px;
     font-weight: bold;
 }
+
 /*Hjemmeside*/
 /*Hjemmeside billedere*/
 .hjemmeside1 {
@@ -106,7 +107,7 @@
     margin-bottom: 1rem;
 }
 
-/*Streg hjemmeside*/
+/*Streg på siden hjemmeside*/
 .streg-hjemmeside {
     margin-left: 1.5rem;
     height: 2px; 
@@ -276,6 +277,7 @@
     border: none;
     font-size: 17pt;
 }
+xs
 /*Slideshow Natur*/
 .mySlides2 {
     margin-left: 2.5rem;
@@ -409,7 +411,7 @@
         margin-top: 10rem;
         margin-left: -5rem;
     }
-
+/*Streg på hjemmesiden*/
     .streg-hjemmeside {
         margin-left: 6rem;
         width: 1750px;
@@ -419,7 +421,7 @@
         margin-top: 6rem;
         font-size: 44pt;
     }
-/*Hjemmeside*/
+/*Hjemmeside billede*/
     .hjemmeside1 {
         margin-left: 53rem;
         margin-right: 1rem;
@@ -444,6 +446,8 @@
         margin-top: 5rem;
         margin-bottom: 1rem;
     }
+
+/*Se mere tekst på hjemmesiden*/
     .se-mere-dans1 {
         margin-right: 50rem;
         float: right;
@@ -464,15 +468,18 @@
         float: right;
         margin-top: 5rem;
     }
+
 /*Video hjemmeside*/
     .video { 
         margin-left: 48rem;
     }
 
+/*Se mere video hjemmeside*/
     .se-mere-video {
         margin-right: 50rem;
         float: right;
     }
+
 /*Om mig hjemmside*/
     .midder-billede {
         margin-top: 10rem;
@@ -495,6 +502,7 @@
         position: absolute;
     }
 
+/*Kontaktinfo på om mig hjemmesiden*/
     .kontakt-email {
         font-size: 25pt;
     }
@@ -512,6 +520,7 @@
         margin-left: 50rem;
     }
 
+/*pil på billedehjemmside*/
     .button-left {
         margin-left: 58rem;
     }
@@ -520,11 +529,13 @@
         margin-left: 58rem;
     }
 
+/*Streg på billedehjemmesiden*/
     .streg-billede {
         margin-left: 4rem;
         width: 1750px
     }
-
+    
+/*Se mere på billedehjemmesiden*/
     .se-mere-thailnad {
         margin-right: 50rem;
         float: right;
